@@ -1,9 +1,9 @@
 # DoradoM1
 Instructions on installing ONT Dorado on Mac M1 machines:
 ## Installation
-Download [this](https://cdn.oxfordnanoportal.com/software/analysis/dorado-0.2.1-osx-arm64.tar.gz) file and put it in the desired directory
+Download [this](https://cdn.oxfordnanoportal.com/software/analysis/dorado-0.2.1-osx-arm64.tar.gz) file and put it in the desired directory.
 ## Required Dependencies
-If homebrew is not installed on your system, follow the instructions from the [homebrew](https://brew.sh/) website for installation
+If homebrew is not installed on your system, follow the instructions from the [homebrew](https://brew.sh/) website for installation.
 ```
 brew install cmake
 brew install hdf5
@@ -17,7 +17,7 @@ brew link zstd
 brew install openssl
 brew link openssl
 ```
-This is probably not the most efficient, but for Dorado to work, it wasn't until all of these were downloaded and linked that it ran
+This is probably not the most efficient, but for Dorado to work for me it wasn't until all of these were downloaded and linked that it ran.
 
 ## Xcode Installation
 Download the [Xcode](https://developer.apple.com/download/all/) developer to run Dorado. This allows Dorado access to metal. Once it installed and licences have been accepted and whatnot, run this line.

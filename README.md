@@ -25,7 +25,7 @@ Download the [Xcode](https://developer.apple.com/download/all/) developer to run
 sudo xcode-select --switch {PATH_TO_XCODE_IN_APPLICATIONS_FOLDER}/Contents/Developer
 ```
 ## Verification
-Once all of this has been downloaded navigate to the dorado folder to verify it is executable.
+Once all of this has been downloaded navigate to the Dorado folder to verify it is executable.
 ```
 cd {PATH_TO_DORADO}/bin
 ./dorado -h

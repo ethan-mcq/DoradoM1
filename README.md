@@ -5,17 +5,8 @@ Download [this](https://cdn.oxfordnanoportal.com/software/analysis/dorado-0.2.1-
 ## Required Dependencies
 If homebrew is not installed on your system, follow the instructions from the [homebrew](https://brew.sh/) website for installation.
 ```
-brew install cmake
-brew install hdf5
-brew link hdf5
-brew install autoconf@2.69 
-brew link autoconf@2.69 
-brew install libaec
-brew link libaec
-brew install zstd
-brew link zstd
-brew install openssl
-brew link openssl
+brew install hdf5 libaec zstd openssl autoconf@2.69
+brew link hdf5 libaec zstd openssl autoconf@2.69
 ```
 This is probably not the most efficient, but for Dorado to work for me it wasn't until all of these were downloaded and linked that it ran.
 
